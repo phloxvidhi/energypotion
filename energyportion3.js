@@ -24,7 +24,7 @@ const tasks = [
   function onOptionClick(option) {
     if (!isGameFinished) {
       if (option === "better") {
-        liquidFill += 10;
+        liquidFill += 20;
         if (liquidFill >= 100) {
           liquidFill = 100;
           isGameFinished = true;
